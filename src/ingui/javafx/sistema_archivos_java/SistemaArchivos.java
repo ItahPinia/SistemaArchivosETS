@@ -42,7 +42,7 @@ public class SistemaArchivos extends Application {
         ObservableList<Image> observableList = stage.getIcons();
         InputStream inputStream
                 = SistemaArchivos.class.getResourceAsStream(
-                "/ingui/javafx/sistema_archivo_java/recursos/icono_archivo.png");
+                "/ingui/javafx/sistema_archivos_java/recursos/icono_archivo.png");
         Image image = new Image(inputStream);
         observableList.add(image);        
         return ret;
